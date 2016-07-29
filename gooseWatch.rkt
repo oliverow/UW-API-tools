@@ -1,3 +1,10 @@
+#lang racket
+
+(require "https://api.uwaterloo.ca/v2/")  //need a vaild API key
+
+(provide goose-nest-around)
+
+
 ;; (selector field-name alist) produces the value of the field 
 ;;     with name field-name in the api alist
 ;; selector: String (listof String Any) -> Any
